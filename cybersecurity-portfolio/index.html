@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cybersecurity portfolio showcasing security operations, SIEM investigations, networking and hands-on security projects.">
+  <meta name="theme-color" content="#080b10">
+  <title>Udayasri | Cybersecurity Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script src="js/animations.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <canvas id="matrix-canvas" aria-hidden="true"></canvas>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Uday home"><span class="brand-mark">U<span>.</span></span><span class="brand-name">UDAY<span class="brand-slash">/</span>SEC</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a class="nav-link active" href="#home">Home</a>
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#skills">Skills</a>
+      <a class="nav-link" href="#projects">Projects</a>
+      <a class="nav-link" href="#contact">Contact</a>
+      <a class="nav-cta" href="#contact">Let's connect <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-shell" id="home">
+      <div class="hero-copy">
+        <div class="availability reveal"><span class="pulse-dot"></span> OPEN TO CYBERSECURITY OPPORTUNITIES</div>
+        <p class="eyebrow reveal"><span class="eyebrow-line"></span> HELLO, WORLD. I'M</p>
+        <h1 class="hero-title reveal">Udayasri<span class="accent">.</span><br><span class="outline-text">Defending</span><br>the digital world<span class="accent">_</span></h1>
+        <p class="hero-description reveal">Aspiring <strong>Cybersecurity Analyst</strong> focused on security monitoring, threat investigation, SIEM operations and strengthening digital environments.</p>
+        <div class="hero-actions reveal">
+          <a class="button button-primary" href="#projects">Explore my work <span>↘</span></a>
+          <a class="button button-ghost" href="#contact">Get in touch <span>↗</span></a>
+        </div>
+        <div class="hero-meta reveal">
+          <div><span class="meta-label">FOCUS</span><span>SOC · SIEM · NETWORK SECURITY</span></div>
+          <div><span class="meta-label">BASED IN</span><span>INDIA</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="visual-cross cross-one">+</div><div class="visual-cross cross-two">+</div>
+        <div class="terminal-card">
+          <div class="terminal-top"><div class="terminal-dots"><i></i><i></i><i></i></div><span>uday@sec-lab:~</span><span class="terminal-lock">▣ SECURE</span></div>
+          <div class="terminal-body">
+            <p class="terminal-muted">Last login: today on /dev/portfolio</p>
+            <p><span class="terminal-green">uday@sec-lab</span>:<span class="terminal-blue">~</span>$ whoami</p>
+            <p class="terminal-output">Cybersecurity enthusiast</p>
+            <p><span class="terminal-green">uday@sec-lab</span>:<span class="terminal-blue">~</span>$ cat mission.txt</p>
+            <p class="terminal-output">Monitor. Investigate. Secure.</p>
+            <p><span class="terminal-green">uday@sec-lab</span>:<span class="terminal-blue">~</span>$ <span id="typed-command"></span><span class="terminal-caret"></span></p>
+            <div class="terminal-status"><span class="pulse-dot"></span> SYSTEM STATUS: ONLINE</div>
+          </div>
+        </div>
+        <div class="floating-tag tag-top"><span>⌁</span> THREAT MONITORING</div>
+        <div class="floating-tag tag-bottom"><span>◈</span> BLUE TEAM MINDSET</div>
+        <div class="visual-caption">FIG 01. / SECURITY OPERATIONS CONSOLE</div>
+      </div>
+      <a class="scroll-indicator" href="#about"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="intro-strip" aria-label="Areas of focus">
+      <div class="strip-track"><span>SECURITY OPERATIONS</span><b>✳</b><span>THREAT DETECTION</span><b>✳</b><span>NETWORK DEFENSE</span><b>✳</b><span>INCIDENT RESPONSE</span><b>✳</b><span>SECURITY OPERATIONS</span><b>✳</b><span>THREAT DETECTION</span><b>✳</b></div>
+    </section>
+
+    <section class="content-section section-shell" id="about">
+      <div class="section-heading reveal"><p class="section-kicker">01 / WHO I AM</p><h2>Curious mind.<br><span class="muted-heading">Security-first thinking.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-text reveal"><p class="large-copy">I enjoy understanding how systems work, how attacks happen, and how defenders can detect and respond to suspicious activity.</p><p>My learning journey combines networking fundamentals, Linux, vulnerability assessment and hands-on SIEM practice. I am building practical skills to contribute to a security operations team and keep learning from real-world challenges.</p><a class="text-link" href="#contact">More about my journey <span>↗</span></a></div>
+        <div class="about-panel reveal"><div class="panel-top"><span>PROFILE.SYS</span><span class="panel-indicator">● ACTIVE</span></div><div class="profile-row"><span>EDUCATION</span><strong>B.Tech · Computer Science</strong></div><div class="profile-row"><span>INTEREST</span><strong>SOC & Blue Team</strong></div><div class="profile-row"><span>SIEM</span><strong>Splunk</strong></div><div class="profile-row"><span>WORKFLOW</span><strong>Analyze → Investigate → Respond</strong></div><div class="panel-bottom"><span>PROFILE INITIALIZED</span><span>100%</span></div><div class="progress-track"><span></span></div></div>
+      </div>
+    </section>
+
+    <section class="content-section section-shell" id="skills">
+      <div class="section-heading reveal"><p class="section-kicker">02 / TECH STACK</p><h2>Tools of the trade<span class="accent">.</span></h2><p class="section-subtitle">A growing toolkit for investigating, monitoring and securing systems.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><span class="skill-index">01</span><div class="skill-icon">⌁</div><h3>SIEM & Monitoring</h3><p>Splunk · Log Analysis · Alert Triage · SPL</p></article>
+        <article class="skill-card reveal"><span class="skill-index">02</span><div class="skill-icon">⌘</div><h3>Networking</h3><p>TCP/IP · DNS · VPN · Firewalls · Wireshark</p></article>
+        <article class="skill-card reveal"><span class="skill-index">03</span><div class="skill-icon">⌬</div><h3>Security Tools</h3><p>Nmap · Burp Suite · OpenVAS · Gobuster</p></article>
+        <article class="skill-card reveal"><span class="skill-index">04</span><div class="skill-icon">$_</div><h3>Systems & Platforms</h3><p>Linux · Kali Linux · Windows · ServiceNow</p></article>
+      </div>
+    </section>
+
+    <section class="content-section section-shell" id="projects">
+      <div class="section-heading reveal"><p class="section-kicker">03 / SELECTED WORK</p><h2>Built in the lab<span class="accent">.</span></h2><p class="section-subtitle">Hands-on projects and practical investigations. Replace these summaries with your exact outcomes and GitHub links.</p></div>
+      <div class="projects-list">
+        <article class="project-card reveal"><div class="project-number">01</div><div class="project-main"><p class="project-type">SIEM · LOG ANALYSIS</p><h3>Splunk Security Monitoring Lab</h3><p>Configured log collection and explored security event monitoring, SPL searches, dashboards and alerting in a hands-on lab.</p><div class="project-tags"><span>Splunk</span><span>Windows Logs</span><span>SPL</span></div></div><a class="project-arrow" href="https://github.com/udayasri88/SOC-lab" aria-label="Ask me about Splunk Security Monitoring Lab">↗</a></article>
+        <article class="project-card reveal"><div class="project-number">02</div><div class="project-main"><p class="project-type">EMAIL SECURITY · AUTOMATION</p><h3>Phishing Email Analysis Pipeline</h3><p>Built a lab workflow to parse email files, extract indicators and enrich findings with threat-intelligence data for investigation.</p><div class="project-tags"><span>Python</span><span>IOC Extraction</span><span>VirusTotal</span></div></div><a class="project-arrow" href="https://github.com/udayasri88/phishing-email-anaysis" aria-label="Ask me about Phishing Email Analysis Pipeline">↗</a></article>
+        <article class="project-card reveal"><div class="project-number">03</div><div class="project-main"><p class="project-type">NETWORK SECURITY · RECON</p><h3>Network Reconnaissance Lab</h3><p>Practiced authorized service discovery and traffic analysis in a controlled lab using network security tools.</p><div class="project-tags"><span>Nmap</span><span>Wireshark</span><span>Kali Linux</span></div></div><a class="project-arrow" href="#contact" aria-label="Ask me about Network Reconnaissance Lab">↗</a></article>
+      </div>
+    </section>
+
+    <section class="contact-section section-shell" id="contact">
+      <div class="contact-glow"></div><p class="section-kicker reveal">04 / INITIATE CONTACT</p><h2 class="reveal">Let's secure<br>what's <span class="accent">next.</span></h2><p class="contact-copy reveal">Interested in cybersecurity opportunities, collaboration or sharing ideas? I'd be happy to connect.</p><div class="contact-actions reveal"><a class="button button-primary" href="mailto:udayasriparvatha@gmail.com">Send an email <span>↗</span></a><a class="button button-ghost" href="https://www.linkedin.com/in/udayasri-parvatha-70469727b " target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a><a class="button button-ghost" href="https://github.com/udayasri88" target="_blank" rel="noreferrer">GitHub <span>↗</span></a></div>
+      <div class="contact-terminal reveal"><span class="terminal-green">root@future:</span>~# <span>connection_established</span><i class="terminal-caret"></i></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="brand" href="#home"><span class="brand-mark">U<span>.</span></span><span class="brand-name">UDAY<span class="brand-slash">/</span>SEC</span></a><p>DESIGNED & BUILT WITH CURIOSITY <span class="accent">✳</span></p><p>© <span id="year"></span> UDAY. ALL RIGHTS RESERVED.</p></footer>
+</body>
+</html>
